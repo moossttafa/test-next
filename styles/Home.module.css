@@ -1,7 +1,10 @@
 .container {
   padding: 0 2rem;
 }
-
+.header{
+  width: 100%;
+  background: #DDD;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;

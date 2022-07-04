@@ -1,6 +1,6 @@
 import { Fragment,useEffect } from 'react'
-import { api } from './component/apiURL'
-import ArticleList from './component/ArticleList'
+import { api } from '../component/apiURL'
+import ArticleList from '../component/ArticleList'
 
 export default function Home({articles}) {
   useEffect(() => {
@@ -9,9 +9,8 @@ export default function Home({articles}) {
   }, [articles])
   console.log(articles)
   return (
-    <div> 
-      <h3>dsfsd</h3>
-      <ArticleList  articles={articles}/>
+    <div>  
+      <ArticleList  articles={articles}/> 
     </div>
     )
   }
