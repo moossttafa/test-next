@@ -29,3 +29,25 @@ a {
   width: 100%; 
   height: 100%;
 }
+
+.destination-wrapper{
+  padding: 5rem;
+}
+.destinations-data{
+  position: relative;
+  display: flex;
+  padding: 3rem 1rem;
+
+}
+.destinations-data.active{
+  border: 1px solid #000;
+}
+.destinations-image .image-wrapper {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+.destinations-image .image-wrapper img{
+  width: 100px;
+  height: 100px;
+}
